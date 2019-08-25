@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tabScrolling]">
+  <parameter name="browser" value="chrome"/>
+  <test name="tst_Scroll_chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="DevExpress.Scroll"/>
+    </classes>
+  </test> <!-- tst_Scroll_chrome -->
+  <test name="tst_Scroll_chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="DevExpress.Scroll">
+        <methods>
+          <include name="retesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DevExpress.Scroll -->
+    </classes>
+  </test> <!-- tst_Scroll_chrome(failed) -->
+</suite> <!-- Failed suite [tabScrolling] -->

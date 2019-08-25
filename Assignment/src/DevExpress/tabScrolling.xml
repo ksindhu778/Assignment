@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tabScrolling">
+ <test name="tst_Scroll_chrome">
+ <parameter name="browser" value="chrome"/>
+  <classes>
+      <class name="DevExpress.Scroll"/>
+  </classes>  
+ </test>
+</suite>
